@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_weight=".05"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/order_list_ico" />
+
+
+        <LinearLayout
+            android:layout_weight=".9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <Component.MyFontTextView
+                android:id="@+id/tv_pack_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="Monthly package of Apna"
+                android:textColor="@android:color/black" />
+
+            <Component.MyTitleFontTextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+                android:textColor="@android:color/darker_gray" />
+
+
+            <RelativeLayout
+                android:gravity="fill_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              >
+
+                <Component.MyFontTextView
+                    android:layout_width="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_id"
+                    android:id="@+id/name" />
+
+                <Component.MyFontTextView
+                    android:id="@+id/tv_order_id"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="#420"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/name"
+                    android:layout_toEndOf="@+id/name" />
+
+
+                <Component.MyFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+
+                    android:text="@string/order_total"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/tv_total"
+                    android:layout_toStartOf="@+id/tv_total"
+                    android:id="@+id/date" />
+
+
+                <Component.MyFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:textColor="@color/green"
+                    android:text="1200"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/tv_total" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

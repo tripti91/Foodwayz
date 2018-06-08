@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@mipmap/proile_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/prifile_placeholder" />
+
+        <Component.MyAppTitleFontTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="John Doe"
+            android:textColor="@android:color/white" />
+
+        <Component.MyAppTitleFontTextView
+            android:id="@+id/tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demo profile sub heading"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+    <Component.MyFontEdittextView
+        android:id="@+id/tv_contact_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@mipmap/phone_green_icon"
+        android:drawablePadding="20dp"
+        android:editable="false"
+        android:lines="1"
+        android:paddingBottom="20dp"
+        android:text="000-000-000"
+        android:textSize="14sp" />
+
+
+    <Component.MyFontEdittextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_contact_no"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@mipmap/msg_green_ico"
+        android:drawablePadding="20dp"
+        android:editable="false"
+        android:lines="1"
+        android:paddingBottom="20dp"
+        android:text="abc_demo@foodway.com"
+        android:textSize="14sp" />
+
+
+    <Component.MyFontEdittextView
+        android:id="@+id/tv_email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@mipmap/url_green_ico"
+        android:drawablePadding="20dp"
+        android:editable="false"
+        android:lines="1"
+        android:paddingBottom="20dp"
+        android:text="abc_demo@foodway.com"
+        android:textSize="14sp" />
+
+
+    <Component.MyFontEdittextView
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_email2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@mipmap/map_marker_green"
+        android:drawablePadding="20dp"
+        android:editable="false"
+        android:lines="2"
+        android:paddingBottom="20dp"
+        android:text="H No. 54 Vijay Nagar,Near Apna Sweets Indore(mp)"
+        android:textSize="14sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_edit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/tv_contact_no"
+        android:layout_alignEnd="@+id/tv_contact_no"
+        android:layout_alignRight="@+id/tv_contact_no"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/edit_profile_ico"
+        android:padding="5dp" />
+
+
+</RelativeLayout>
+
+
+

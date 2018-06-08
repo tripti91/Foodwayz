@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="horizontal"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/llayout"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical">
+
+        <Component.MyAppTitleFontTextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/action_bar_share"
+            android:layout_toStartOf="@+id/action_bar_forward"
+
+            android:background="@null"
+            android:gravity="left|center"
+            android:hint="@string/City"
+            android:singleLine="true"
+            android:textColor="@color/orang"
+            android:textColorHint="@color/orang"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+
+            />
+
+        <Component.MyTitleFontTextView
+            android:id="@+id/location"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/action_bar_share"
+            android:layout_toStartOf="@+id/action_bar_forward"
+            android:background="@null"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="vandana"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:textSize="15dp"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+
+    <Component.MyAppTitleFontTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/action_bar_delete"
+        android:layout_toStartOf="@+id/action_bar_delete"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/green"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/action_bar_delete"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/action_bar_share"
+        android:layout_toRightOf="@+id/llayout"
+        android:layout_toStartOf="@+id/action_bar_share"
+        android:gravity="right"
+        android:padding="10dp"
+
+        android:src="@mipmap/trash_gallery"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/action_bar_share"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:src="@mipmap/share"
+        android:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/action_bar_forward"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:src="@drawable/search" />
+
+</RelativeLayout>

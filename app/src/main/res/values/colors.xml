@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@android:color/white</color>
+    <color name="backgrond2">#f8fefb</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_text_dark">#676767</color>
+    <color name="color_text_black">#000000</color>
+    <color name="color_hint_light">#cdcdcd</color>
+    <color name="green">#03bb01</color>
+    <color name="red">#d20101</color>
+    <color name="offer_box">#ff003d</color>
+    <color name="offer_discreption">#666666</color>
+    <color name="sing_up_here">#02a556</color>
+    <color name="order_profile_bg">#F2FEF8</color>
+    <color name="orang">#ff7900</color>
+    <color name="gray">#eeeeee</color>
+    <color name="backgrond1">#FFFBF4</color>
+
+</resources>

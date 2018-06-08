@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/color_text_black">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/back"
+android:background="@null"
+        android:layout_margin="10dp"
+        android:src="@mipmap/back"/>
+
+    <Component.MyAppTitleFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Gallary"
+        android:textSize="15dp"
+
+        android:gravity="left|center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView5" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_weight="1.8"
+    android:layout_height="400dp"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+       android:layout_margin="10dp"
+        android:id="@+id/iv_image"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</LinearLayout>
+</LinearLayout>

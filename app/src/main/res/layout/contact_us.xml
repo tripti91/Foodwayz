@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Component.MyAppTitleFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:text="@string/Have_any_query"/>
+
+
+
+    <Component.MyFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:text="@string/please_feel"/>
+
+
+    <Component.MyFontEdittextView
+        android:id="@+id/et_enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@null"
+        android:padding="5dp"
+        android:textSize="13dp"
+        android:hint="@string/Enter_Name"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#c9c6c6"/>
+
+
+
+    <Component.MyFontEdittextView
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:gravity="left"
+        android:background="@null"
+        android:hint="@string/Message"
+        android:textSize="13dp"
+
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#c9c6c6"/>
+
+    <Component.MyFontButton
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/roundcorner"
+        android:layout_marginRight="20dp"
+        android:text="@string/Submit"/>
+    <Component.MyFontButton
+        android:id="@+id/bt_sendsms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/roundcorner"
+        android:layout_marginRight="20dp"
+        android:text="@string/send_sms"/>
+    <Component.MyFontButton
+        android:id="@+id/bt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/roundcorner"
+        android:layout_marginRight="20dp"
+        android:text="@string/send_email"/>
+    <Component.MyFontButton
+        android:id="@+id/bt_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/roundcorner"
+        android:layout_marginRight="20dp"
+        android:text="@string/cancle"/>
+</LinearLayout>

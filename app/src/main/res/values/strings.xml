@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Foodwayz</string>
+    <string name="text_name">Name</string>
+    <string name="text_email">Email</string>
+    <string name="text_mobile">Mobile No.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_password">Password</string>
+    <string name="text_comfirm_pass">Comfirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_sign">Sign in here</string>
+    <string name="text_signup">Sign up here</string>
+    <string name="text_forget_pass">Forgot Password ?</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="spinner_location">Select Location</string>
+    <string name="order_list">Order list</string>
+    <string name="order_id">Order Id:</string>
+    <string name="order_total">Order Total:</string>
+    //url
+    <string name="URL_REGISTER"> http://api.proaspire.com/api/users/Register</string>
+    <string name="URL_GETCITY">http://api.proaspire.com/api/Location/GetCities</string>
+    <string name="URL_LOGIN">http://api.proaspire.com/api/users/Login</string>
+    <string name="URL_RESTURENT_List">http://api.proaspire.com/api/Restaurant/GetRestaurants/</string>
+    <string name="URL_VERIFICATION">http://api.proaspire.com/api/users/VerifyMobile</string>
+    <string name="URL_Resend">http://api.proaspire.com/api/users/ResendCode</string>
+    <string name="Get_Direction">Get Direction</string>
+    <string name="submit_review">Submit review</string>
+    <string name="Have_any_query">Have any Query?</string>
+    <string name="please_feel">Please feel free to contact us</string>
+    <string name="Enter_Name">Enter Name</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="cancle">Cancle</string>
+    <string name="send_email">Send Email</string>
+    <string name="Submit">Submit</string>
+
+    <string name="Message">Message</string>
+    <string name="Lets_get_your_mobile">Lets get your Mobile verified</string>
+    <string name="To_complete_your_phone">To complete your phone varification\n please enter the activation code</string>
+    <string name="We_have_sent">We have sent you an SMS with a code\n on your number</string>
+    <string name="Resend_code">Resend code</string>
+    <string name="Call_me">Call Me</string>
+    <string name="Share">Share</string>
+    <string name="Please_contact">Please contact for any query concern at</string>
+    <string name="Balance">Balance</string>
+    <string name="Your_Orders">Your Orders</string>
+    <string name="proceed_To_Pay">proceed To Pay</string>
+    <string name="Resturent_Title">Resturent Title</string>
+    <string name="Location">City</string>
+    <string name="City">YOUR LOCATION</string>
+    <string name="Total">Total</string>
+    <string name="Term_and_condition">Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng  Lorem Ipsum is simply dummy text of the printng  Lorem Ipsum is simply dummy text of the printng  Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng Lorem Ipsum is simply dummy text of the printng</string>
+    <string name="Payment_Detail">Payment Detail</string>
+    <string name="Address">Address</string>
+    <string name="Customer_Name">Customer Name :</string>
+    <string name="Customer_Id">Customer Id :</string>
+    <string name="Special_Thali">Special Thali</string>
+    <string name="Note">Note:</string>
+    <string name="place_order">Place Order</string>
+    <string name="Your_Address">Your Address</string>
+
+
+</resources>

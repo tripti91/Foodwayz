@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/lay_rel_1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#ebebeb">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Component.MyFontTextView
+                android:id="@+id/txt_resturent_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Apna Sweets"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="30dp"
+                android:layout_height="3dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:text="Tap a star toRate"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lay_rel_2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/lay_rel_1"
+        android:background="@color/green">
+
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:drawableRight="@drawable/send_white"
+            android:text="Submit Review"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="170dp"
+        android:gravity="top|left"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:hint="Enter your Review"        android:background="@color/colorPrimary" />
+
+</RelativeLayout>

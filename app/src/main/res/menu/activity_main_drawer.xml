@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@mipmap/notification"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/nav_offer"
+        android:icon="@mipmap/my_reviews"
+        android:title="Special Offers" />
+    <item
+        android:id="@+id/nav_near_by_resturent"
+        android:icon="@mipmap/near_by_rest"
+        android:title="Near By Restaurents" />
+
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@mipmap/my_order"
+        android:title="My Orders" />
+
+    <item
+        android:id="@+id/nav_reviews"
+        android:icon="@mipmap/my_reviews"
+        android:title="My Reviews" />
+    <item
+        android:id="@+id/complet_order"
+        android:icon="@mipmap/completed_order"
+        android:title="Completed Orders" />
+     <item
+        android:id="@+id/nav_profile"
+        android:icon="@mipmap/my_profile"
+        android:title="My Profile" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@mipmap/setting"
+        android:title="Settings" />
+
+        <item
+        android:id="@+id/about"
+        android:icon="@mipmap/about_fw"
+        android:title="About Foodwayz" />
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@mipmap/contact"
+        android:title="Contact Foodwayz" />
+    <!--<item
+        android:id="@+id/nav_favorite_resturent"
+        android:icon="@mipmap/faviriot_rest"
+        android:title="Favorite Restaurent" />
+-->
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@mipmap/share_ico"
+        android:title="Share Foodwayz" />
+    <item
+        android:id="@+id/nav_send"
+        android:icon="@mipmap/play_store"
+        android:title="Rate Us on Playstore" />
+
+
+
+</menu>

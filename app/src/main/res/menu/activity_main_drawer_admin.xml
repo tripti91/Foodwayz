@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@mipmap/notification"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/nav_new_order"
+        android:icon="@mipmap/my_order"
+        android:title="New Orders List" />
+
+    <item
+        android:id="@+id/nav_exit_order"
+        android:icon="@mipmap/my_order"
+        android:title="Existing Orders List" />
+    <item
+        android:id="@+id/nav_complete_order"
+        android:icon="@mipmap/my_order"
+        android:title="Completed Orders List " />
+
+    <item
+        android:id="@+id/nav_cancel_order"
+        android:icon="@mipmap/my_order"
+        android:title="Cancelled Orders " />
+
+    <item
+        android:id="@+id/nav_manage_user"
+        android:icon="@mipmap/my_reviews"
+        android:title="Manage Users" />
+    <item
+        android:id="@+id/nav_resturent_profile"
+        android:icon="@mipmap/my_profile"
+        android:title="Restaurent Profile" />
+
+    <item
+        android:id="@+id/nav_manage_gallary"
+        android:icon="@mipmap/gallery_ico"
+        android:title="Manage Gallery Image " />
+    <item
+        android:id="@+id/nav_user_feedback"
+        android:icon="@mipmap/my_reviews"
+        android:title="Users Feedbacks" />
+    <item
+        android:id="@+id/nav_offfer"
+        android:icon="@mipmap/my_reviews"
+        android:title="Manage Coupon/Offers " />
+
+    <item
+        android:id="@+id/nav_manage_payment"
+        android:icon="@mipmap/my_reviews"
+        android:title="Manage Payment  " />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@mipmap/share_ico"
+        android:title="Send Messages to Users" />
+
+    <item
+        android:id="@+id/nav_massage_list"
+        android:icon="@mipmap/share_ico"
+        android:title="Sent Messages List " />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@mipmap/setting"
+        android:title="Settings" />
+
+
+
+</menu>

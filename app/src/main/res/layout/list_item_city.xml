@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@mipmap/map_marker"
+    android:layout_margin="9dp"
+    android:drawablePadding="10dp"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/city"
+    android:textColor="@android:color/black"
+    android:textSize="13dp" />
